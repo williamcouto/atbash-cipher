@@ -8,27 +8,25 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 15px;
     background-color: #f7f7f7;
     width: 700px;
-    height: 300px;
+    height: 270px;
 }
-
-
 
 textarea{
     width: 300px;
     height: 150px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 input[type="button"]{
-    position: absolute;
-    top: 33%;
     width: 200px;
     height: 35px;
+    margin: 10px;
 }
