@@ -4,33 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #fcfcfc;
-}
-
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
     margin-left: 5%;
     margin-top: 5%;
-    background-color: #ffff;
+    background-color: #fcfcfc;
     padding: 15px;
-    width: 60vw;
-    background-color: greenyellow;
+    width: 65vw;
+    border: 1px solid #0000002d;
 }
 
 .container_msg{
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.box{
-    display: flex;
-    flex-direction: column;
 }
 
 textarea{
@@ -41,6 +31,8 @@ textarea{
 }
 
 input[type="button"]{
+    background-color: #F19A3E;
+    border: 1px solid #0000005b;
     width: 200px;
     height: 35px;
 }
