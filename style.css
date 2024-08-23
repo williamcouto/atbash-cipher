@@ -5,8 +5,12 @@
 }
 
 h1{
-    text-align: center;
-    margin-top: 15px;
+    text-align: left;
+    /* margin-top: 40px;
+    margin-left: 5%; */
+    margin: 40px 0px 0px 5%;
+    padding-left: 10px;
+    border-left: 10px solid red;
 }
 
 .container{
@@ -41,6 +45,8 @@ input[type="button"]{
     background-color: #1E152A;
     color: #ffff;
     border: 1px solid #0000004f;
-    width: 200px;
+    width: 130px;
     height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
 }
