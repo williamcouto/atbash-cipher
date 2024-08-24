@@ -8,7 +8,7 @@ h1{
     text-align: left;
     margin: 37px 0px 0px 4%;
     padding-left: 10px;
-    border-left: 7px solid #291711;
+    border-left: 7px solid #231942;
 }
 
 .container{
@@ -18,11 +18,11 @@ h1{
     justify-content: space-around;
     gap: 40px;
     margin: 4% 0px 0px 4%;
-    background-color: #F5F5F5;
-    padding: 15px;
+    background-color: #fcfcfc;
+    padding: 8px;
     width: 70vw;
-    height: 45vh;
-    border: 1px solid #0000003a;
+    height: 47vh;
+    border: 1px solid #00000018;
 }
 
 .box-msg{
@@ -40,7 +40,7 @@ textarea{
 }
 
 input[type="button"]{
-    background-color: #5F1A37;
+    background-color: #231942;
     color: #ffff;
     border: none;
     width: 130px;
