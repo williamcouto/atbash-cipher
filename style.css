@@ -10,18 +10,18 @@ h1{
     margin-left: 5%; */
     margin: 40px 0px 0px 5%;
     padding-left: 10px;
-    border-left: 10px solid red;
+    border-left: 10px solid #291711;
 }
 
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 40px;
     margin-left: 5%;
     margin-top: 5%;
-    background-color: #fcfcfc;
+    background-color: #F5F5F5;
     padding: 15px;
     width: 70vw;
     border: 1px solid #0000003a;
@@ -42,11 +42,12 @@ textarea{
 }
 
 input[type="button"]{
-    background-color: #1E152A;
+    background-color: #291711;
     color: #ffff;
     border: 1px solid #0000004f;
     width: 130px;
     height: 35px;
     cursor: pointer;
     border-radius: 2px;
+    padding: 5px;
 }
