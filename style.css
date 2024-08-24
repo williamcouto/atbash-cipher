@@ -6,11 +6,9 @@
 
 h1{
     text-align: left;
-    /* margin-top: 40px;
-    margin-left: 5%; */
-    margin: 40px 0px 0px 5%;
+    margin: 37px 0px 0px 4%;
     padding-left: 10px;
-    border-left: 10px solid #291711;
+    border-left: 7px solid #291711;
 }
 
 .container{
@@ -19,18 +17,18 @@ h1{
     align-items: center;
     justify-content: space-around;
     gap: 40px;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin: 4% 0px 0px 4%;
     background-color: #F5F5F5;
     padding: 15px;
     width: 70vw;
+    height: 45vh;
     border: 1px solid #0000003a;
 }
 
 .box-msg{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
     margin-top:15px;
 }
 
@@ -42,9 +40,9 @@ textarea{
 }
 
 input[type="button"]{
-    background-color: #291711;
+    background-color: #5F1A37;
     color: #ffff;
-    border: 1px solid #0000004f;
+    border: none;
     width: 130px;
     height: 35px;
     cursor: pointer;
