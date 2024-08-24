@@ -9,13 +9,16 @@ function encodeAtbash(){
         let text_apart = text.split('')
         
         for(let i = 0 ; i < text_apart.length ; i++){
-            let index = alphab.indexOf(text_apart[i])
-
+            let caractere = text_apart[i]
+            let index = alphab.indexOf(caractere.toUpperCase())
+            let LowerChar = caractere === caractere.toLowerCase()
+            
             if(index !== -1){
-                text_encrypted += alphaInverted[index]
+                let charCrypto = alphaInverted[index]
+                text_encrypted += LowerChar ? charCrypto.toLowerCase() : charCrypto
             }
             else{
-                text_encrypted += text_apart[i]
+                text_encrypted += caractere
             }
         }
         return text_encrypted
