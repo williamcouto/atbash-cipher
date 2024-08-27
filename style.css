@@ -8,7 +8,7 @@
 h1{
     font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     text-align: left;
-    margin: 37px 0px 0px 4%;
+    margin: 43px 0px 0px 8%;
     padding-left: 10px;
     border-left: 7px solid #231942;
 }
@@ -23,7 +23,7 @@ body{
     align-items: center;
     justify-content: space-around;
     gap: 25px;
-    margin: 4% 0px 0px 4%;
+    margin: 4% 0px 0px 8%;
     background-color: #ffff;
     padding: 8px;
     width: 70vw;
@@ -55,4 +55,8 @@ input[type="button"]{
     cursor: pointer;
     border-radius: 2px;
     padding: 5px;
+}
+
+label{
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
 }
