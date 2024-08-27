@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +6,15 @@
 }
 
 h1{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     text-align: left;
     margin: 37px 0px 0px 4%;
     padding-left: 10px;
     border-left: 7px solid #231942;
+}
+
+body{
+    background-color: #fcfcfc;
 }
 
 .container{
@@ -16,9 +22,9 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 40px;
+    gap: 25px;
     margin: 4% 0px 0px 4%;
-    background-color: #fcfcfc;
+    background-color: #ffff;
     padding: 8px;
     width: 70vw;
     height: 47vh;
@@ -29,19 +35,20 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 6px;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 textarea{
     width: 400px;
-    height: 150px;
-    padding: 5px;
+    height: 170px;
+    padding: 8px;
     font-size: 17px;
 }
 
 input[type="button"]{
     background-color: #231942;
     color: #ffff;
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
     border: none;
     width: 130px;
     height: 35px;
