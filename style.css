@@ -26,7 +26,7 @@ body{
     gap: 27px;
     margin: 4% 0px 0px 4%;
     background-color: #ffff;
-    padding: 8px;
+    padding: 5px;
     width: 85vw;
     height: 50vh;
     border: 1px solid #00000018;
@@ -44,6 +44,17 @@ textarea{
     height: 180px;
     padding: 8px;
     font-size: 17px;
+}
+
+.atbash-history{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 30vh;
+    padding: 20px;
+    margin: 6% 0px 0px 4%;
+    line-height: 1.5em;
+    background-color: rgb(255, 238, 207);
 }
 
 input[type="button"]{
