@@ -8,14 +8,22 @@
 </head>
 <body>
     <h1>Cifra de Atbash</h1>
-        <div class="container">
-            <div class="box-msg">
-                <label for="user_text">Insira sua mensagem</label>
-                <textarea name="user_text" id="user_text"></textarea>
-                <input type="button" value="Code" onclick="encodeAtbash()"> 
+        <main>
+            <div class="container">
+                <div class="box-msg">
+                    <label for="user_text">Insira sua mensagem</label>
+                    <textarea name="user_text" id="user_text"></textarea>
+                    <input type="button" value="Code" onclick="encodeAtbash()">
+                </div>
+                <textarea name="text_encode" id="text_encode" placeholder="mensagem codificada..."></textarea>
             </div>
-            <textarea name="text_encode" id="text_encode" placeholder="mensagem codificada..."></textarea>   
-        </div> 
+
+            <article class="atbash-history">
+            <p>A Cifra Atbash é uma cifra de substituição simples em que cada letra do alfabeto é trocada pela letra oposta no alfabeto, substituindo a primeira letra do alfabeto (A) pela última (Z) e assim sucessivamente.</p>
+            <p>A criptografia tem origem em Israel e na antiga linguagem hebraica, usada para codificar e decodificar os textos sagrados. Alguns capítulos do livro de Jeremias da Bíblia Sagrada foram criptografados usando essa técnica, como é possível ver em Jeremias 25:26 e 51:41, onde o nome do lugar é “Sheshach”. O local era desconhecido para os estudiosos, mas, ao aplicar a cifra Atbash, eles perceberam ser um nome codificado para a Babilônia.</p>
+            <p>A palavra Atbash vem da grafia das letras hebraicas Aleph, Tav, Beth, Shin.</p>
+            </article>
+        </main>
 </body>
 <script src="script.js"></script>
 </html>
