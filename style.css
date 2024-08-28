@@ -78,6 +78,15 @@ input[type="button"]{
 label{
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
 }
+
+footer{
+    text-align: center;
+    background-color: #231942;
+    color: #ffff;
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
 /*Mobile*/
 @media screen and (max-width:768px){
     .container{
