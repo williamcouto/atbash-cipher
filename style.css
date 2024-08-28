@@ -51,10 +51,16 @@ textarea{
     flex-direction: column;
     width: 80vw;
     height: 30vh;
-    padding: 20px;
+    padding: 8px;
     margin: 6% 0px 0px 4%;
+    background-color: rgb(255, 247, 233);
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+}
+
+.atbash-history p{
+    padding: 5px;
+    text-align: justify;
     line-height: 1.5em;
-    background-color: rgb(255, 238, 207);
 }
 
 input[type="button"]{
