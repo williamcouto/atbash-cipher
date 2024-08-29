@@ -10,7 +10,7 @@ h1{
     text-align: left;
     margin: 43px 0px 0px 4%;
     font-size: 30pt;
-    padding-left: 10px;
+    padding-left: 20px;
     border-left: 7px solid #231942;
 }
 
@@ -53,7 +53,6 @@ textarea{
     height: 32vh;
     padding: 10px;
     margin: 4% 4%;
-    background-color: rgb(248, 243, 235);
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
 }
 
@@ -84,7 +83,13 @@ footer{
     background-color: #231942;
     color: #ffff;
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
     padding: 9px;
+}
+
+footer a{
+    color: #f3f3f3;
+    text-decoration: none;
 }
 
 /*Mobile*/
@@ -92,11 +97,10 @@ footer{
     .container{
         display: flex;
         flex-direction: column;
-        gap: 8%;
         align-items: center;
-        height: 90vh;
-        width: 90vw;
-        margin: 22px 0px 0px 4%;
+        height: 700px;
+        width: 92vw;
+        margin: 15px 0px 0px 4%;
     }
 
     textarea{
@@ -118,11 +122,30 @@ footer{
         background-color: #231942;
         color: #ffff;
         margin: auto;
-        margin-top: 6%;
+        margin-top: 8%;
         font-family: 'Work sans', Arial, Helvetica, sans-serif;
         border: none;
         cursor: pointer;
         border-radius: 2px;
         padding: 5px;
+    }
+
+    footer{
+        text-align: center;
+        background-color: #231942;
+        color: #ffff;
+        font-family: 'Work sans', Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        padding: 9px;
+    }
+    .atbash-history p{
+        padding: 5px;
+        text-align: justify;
+        line-height: 1.2em;
+    }
+    .atbash-history{
+        width: 90vw;
+        height: 50vh;
+        margin: 4%;
     }
 }
