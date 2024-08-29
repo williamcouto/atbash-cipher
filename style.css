@@ -50,17 +50,17 @@ textarea{
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 35vh;
-    padding: 8px;
-    margin: 6% 0px 0px 4%;
-    background-color: rgb(255, 247, 233);
+    height: 32vh;
+    padding: 10px;
+    margin: 4% 4%;
+    background-color: rgb(248, 243, 235);
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
 }
 
 .atbash-history p{
     padding: 5px;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 input[type="button"]{
@@ -84,7 +84,7 @@ footer{
     background-color: #231942;
     color: #ffff;
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
-    padding: 8px;
+    padding: 9px;
 }
 
 /*Mobile*/
