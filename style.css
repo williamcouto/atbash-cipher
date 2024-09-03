@@ -67,11 +67,12 @@ input[type="button"]{
     background-color: #231942;
     color: #ffff;
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
     border: none;
     width: 130px;
-    height: 35px;
+    height: 38px;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 5px;
 }
 
@@ -99,15 +100,14 @@ footer a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
-        width: 92vw;
+        width: 93vw;
         height: 80vh;
         margin: 6% 0px 0px 4%;
     }
 
     textarea{
         width: 300px;
-        height: 210px;
+        height: 200px;
     }
 
     h1{
