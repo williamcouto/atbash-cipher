@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 h1{
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     text-align: left;
-    margin: 12px 0px 0px 4%;
+    margin: 25px 0px 0px 4%;
     font-size: 30pt;
     padding-left: 20px;
     border-left: 7px solid #231942;
@@ -27,7 +28,7 @@ body{
     margin: 4% 0px 0px 4%;
     background-color: #ffff;
     padding: 5px;
-    width: 85vw;
+    width: 90vw;
     height: 50vh;
     border: 1px solid #00000018;
 }
@@ -69,11 +70,11 @@ input[type="button"]{
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 17px;
     border: none;
-    width: 130px;
-    height: 38px;
+    width: 150px;
+    height: 35px;
     cursor: pointer;
     border-radius: 5px;
-    padding: 5px;
+    padding: 6px;
 }
 
 label{
@@ -84,7 +85,7 @@ footer{
     text-align: center;
     background-color: #231942;
     color: #ffff;
-    font-family: '', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding: 9px;
 }
@@ -123,7 +124,7 @@ footer a{
         color: #ffff;
         margin: auto;
         margin-top: 10%;
-        font-family: '', Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         border: none;
         cursor: pointer;
         border-radius: 2px;
