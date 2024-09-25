@@ -28,15 +28,16 @@ body{
     margin: 4% 0px 0px 4%;
     background-color: #ffff;
     padding: 5px;
-    width: 90vw;
-    height: 50vh;
+    width: 87vw;
+    height: 51vh;
     border: 1px solid #00000018;
+    border-radius: 4px;
 }
 
 .box-msg{
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
     margin-top: 15px;
 }
 
