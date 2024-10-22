@@ -24,12 +24,12 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 27px;
+    gap: 20px;
     margin: 4% 0px 0px 4%;
     background-color: #ffff;
     padding: 5px;
-    width: 87vw;
-    height: 51vh;
+    width: 89vw;
+    height: 52vh;
     border: 1px solid #00000018;
     border-radius: 4px;
 }
@@ -37,7 +37,7 @@ body{
 .box-msg{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     margin-top: 15px;
 }
 
@@ -71,11 +71,10 @@ input[type="button"]{
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 17px;
     border: none;
-    width: 150px;
+    width: 250px;
     height: 35px;
     cursor: pointer;
-    border-radius: 5px;
-    padding: 6px;
+    border-radius: 2px;
 }
 
 label{
@@ -156,6 +155,6 @@ footer a{
     .atbash-history p{
         padding: 7px;
         text-align: left;
-        line-height: 1.1em;
+        line-height: 1em;
     }
 }
