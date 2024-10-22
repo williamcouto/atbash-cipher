@@ -46,8 +46,7 @@ textarea{
     width: 500px;
     height: 180px;
     padding: 8px;
-    font-size: 17px;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font: 17px 'Open Sans', Arial, sans-serif;
 }
 
 .atbash-history{
@@ -70,7 +69,6 @@ input[type="button"]{
     background-color: #231942;
     color: #ffff;
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 17px;
     border: none;
     width: 250px;
     height: 35px;
@@ -86,9 +84,8 @@ footer{
     text-align: center;
     background-color: #231942;
     color: #ffff;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 14px;
-    padding: 9px;
+    font: 13px 'Open Sans', Arial, sans-serif;
+    padding: 8px;
 }
 
 footer a{
@@ -136,8 +133,7 @@ footer a{
         text-align: center;
         background-color: #231942;
         color: #ffff;
-        font-family: 'Open Sans', Arial, sans-serif;
-        font-size: 13px;
+        font: 13px 'Open Sans', Arial, sans-serif;
         padding: 7px;
     }
 
