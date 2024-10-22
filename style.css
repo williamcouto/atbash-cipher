@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
@@ -46,7 +47,7 @@ textarea{
     height: 180px;
     padding: 8px;
     font-size: 17px;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .atbash-history{
@@ -56,7 +57,7 @@ textarea{
     height: 32vh;
     padding: 10px;
     margin: 4% 4%;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .atbash-history p{
@@ -68,7 +69,7 @@ textarea{
 input[type="button"]{
     background-color: #231942;
     color: #ffff;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 17px;
     border: none;
     width: 250px;
@@ -78,14 +79,14 @@ input[type="button"]{
 }
 
 label{
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 footer{
     text-align: center;
     background-color: #231942;
     color: #ffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 14px;
     padding: 9px;
 }
@@ -124,7 +125,7 @@ footer a{
         color: #ffff;
         margin: auto;
         margin-top: 10%;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Open Sans', Arial, sans-serif;
         border: none;
         cursor: pointer;
         border-radius: 2px;
@@ -135,7 +136,7 @@ footer a{
         text-align: center;
         background-color: #231942;
         color: #ffff;
-        font-family: '', Arial, Helvetica, sans-serif;
+        font-family: 'Open Sans', Arial, sans-serif;
         font-size: 13px;
         padding: 7px;
     }
